@@ -1,4 +1,4 @@
-# 🚀 Phoeltress
+#  Phoeltress
 
 > **The AI Operating System for Unity Development**
 
@@ -6,18 +6,18 @@ Phoeltress is an AI-powered development platform built for Unity developers. Its
 
 ---
 
-## ✨ Vision
+##  Vision
 
 Phoeltress is more than an AI code generator.
 
 It aims to become an intelligent development companion capable of:
 
-- 🧠 Planning game systems
-- 💻 Generating clean Unity scripts
-- 🎮 Building scenes
-- 🛠 Debugging projects
-- 📚 Explaining generated code
-- ⚡ Automating repetitive tasks
+-  Planning game systems
+-  Generating clean Unity scripts
+-  Building scenes
+-  Debugging projects
+-  Explaining generated code
+-  Automating repetitive tasks
 
 The objective is simple:
 
@@ -25,22 +25,22 @@ The objective is simple:
 
 ---
 
-# 🚀 Current Features
+#  Current Features
 
-- ✅ Custom Unity Editor Window
-- ✅ Professional Project Architecture
-- ✅ Git & GitHub Integration
-- 🚧 Dashboard (In Progress)
-- 🚧 AI Prompt System
-- ⏳ LM Studio Integration
-- ⏳ Scene Builder
-- ⏳ AI Debugger
+-  Custom Unity Editor Window
+-  Professional Project Architecture
+-  Git & GitHub Integration
+-  Dashboard (In Progress)
+-  AI Prompt System
+-  LM Studio Integration
+-  Scene Builder
+-  AI Debugger
 
 ---
 
-# 🗺 Roadmap
+#  Roadmap
 
-## v0.0.1 – Ignition ✅
+## v0.0.1 – Ignition 
 
 - Unity Project Setup
 - Git Repository
@@ -49,7 +49,7 @@ The objective is simple:
 
 ---
 
-## v0.1.0 – Foundation 🚧
+## v0.1.0 – Foundation 
 
 - Dashboard UI
 - Window Architecture
@@ -90,7 +90,7 @@ The objective is simple:
 
 ---
 
-## 🎯 Tech Stack
+##  Tech Stack
 
 - Unity 6 (LTS)
 - C#
@@ -102,9 +102,9 @@ The objective is simple:
 
 ---
 
-## 📈 Project Status
+##  Project Status
 
-🟢 Active Development
+> Active Development
 
 Current Version:
 
@@ -114,7 +114,7 @@ v0.0.1 – Ignition
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Phoeltress is currently under active development.
 
