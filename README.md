@@ -122,6 +122,6 @@ Contributions, suggestions, and feedback will be welcome as the project evolves.
 
 ---
 
-## 📜 License
+##  License
 
 License to be added.
