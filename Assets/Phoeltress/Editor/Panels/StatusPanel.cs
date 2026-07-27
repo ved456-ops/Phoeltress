@@ -7,7 +7,7 @@ public static class StatusPanel
     {
         GUILayout.Label("Status");
 
-        EditorGUILayout.LabelField("AI", "Offline");
+        EditorGUILayout.LabelField("AI", StatusManager.GetStatus());
         EditorGUILayout.LabelField("Unity", Application.unityVersion);
         EditorGUILayout.LabelField("Project", Application.productName);
     }

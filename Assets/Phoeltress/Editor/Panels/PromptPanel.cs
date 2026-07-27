@@ -15,9 +15,13 @@ public static class PromptPanel
         {
             if (PromptManager.Validate(prompt))
             {
+                StatusManager.SetStatus("Thinking...");
+
                 AIResponse response = AIConnector.SendPrompt(prompt);
 
                 ResponseManager.SetResponse(response);
+
+                StatusManager.SetStatus("Ready");
             }
         }
 

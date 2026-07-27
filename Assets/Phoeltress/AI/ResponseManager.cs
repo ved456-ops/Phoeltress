@@ -11,4 +11,9 @@ public static class ResponseManager
     {
         return LatestResponse;
     }
+
+    public static void ClearResponse()
+    {
+        LatestResponse = null;
+    }
 }

@@ -7,9 +7,29 @@ public static class ResponsePanel
     {
         GUILayout.Space(15);
 
+        // Get the response ONCE
+        AIResponse response = ResponseManager.GetResponse();
+
+        GUILayout.BeginHorizontal();
+
         GUILayout.Label("AI Response", EditorStyles.boldLabel);
 
-        AIResponse response = ResponseManager.GetResponse();
+        GUILayout.FlexibleSpace();
+
+        if (GUILayout.Button("📋 Copy", GUILayout.Width(70)))
+        {
+            if (response != null)
+            {
+                EditorGUIUtility.systemCopyBuffer = response.Text;
+            }
+        }
+
+        if (GUILayout.Button("🗑 Clear", GUILayout.Width(70)))
+        {
+            ResponseManager.ClearResponse();
+        }
+
+        GUILayout.EndHorizontal();
 
         if (response == null)
         {
