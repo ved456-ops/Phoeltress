@@ -17,6 +17,8 @@ public class DashboardWindow : EditorWindow
 
         PromptPanel.Draw(ref prompt);
 
+        ResponsePanel.Draw();
+        
         StatusPanel.Draw();
     }
 }

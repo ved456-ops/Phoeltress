@@ -15,9 +15,9 @@ public static class PromptPanel
         {
             if (PromptManager.Validate(prompt))
             {
-                string response = AIConnector.SendPrompt(prompt);
+                AIResponse response = AIConnector.SendPrompt(prompt);
 
-                Debug.Log(response);
+                ResponseManager.SetResponse(response);
             }
         }
 
