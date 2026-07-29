@@ -1,3 +1,4 @@
+using System;
 using UnityEditor;
 using UnityEngine;
 
@@ -20,6 +21,13 @@ public static class PromptPanel
                 AIResponse response = AIConnector.SendPrompt(prompt);
 
                 ResponseManager.SetResponse(response);
+
+                HistoryManager.AddEntry(new ConversationEntry
+                {
+                    Prompt = prompt,
+                    Response = response,
+                    Timestamp = DateTime.Now
+                });
 
                 StatusManager.SetStatus("Ready");
             }

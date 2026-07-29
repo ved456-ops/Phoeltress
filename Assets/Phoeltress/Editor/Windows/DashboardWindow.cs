@@ -18,6 +18,8 @@ public class DashboardWindow : EditorWindow
         PromptPanel.Draw(ref prompt);
 
         ResponsePanel.Draw();
+
+        HistoryPanel.Draw();
         
         StatusPanel.Draw();
     }

@@ -1,9 +1,38 @@
-private static List<ConversationEntry> history = new List<ConversationEntry>();
+using System.Collections.Generic;
 
-public static void AddEntry(ConversationEntry entry)
+public static class HistoryManager
+{
+    private static List<ConversationEntry> history = new List<ConversationEntry>();
 
-public static List<ConversationEntry> GetHistory()
+    private static ConversationEntry selectedConversation;
 
-public static void ClearHistory()
+    public static void AddEntry(ConversationEntry entry)
+    {
+        history.Add(entry);
+    }
 
-public static int GetCount()
+    public static List<ConversationEntry> GetHistory()
+    {
+        return history;
+    }
+
+    public static void ClearHistory()
+    {
+        history.Clear();
+    }
+
+    public static int GetCount()
+    {
+        return history.Count;
+    }
+
+    public static void SetSelectedConversation(ConversationEntry entry)
+    {
+        selectedConversation = entry;
+    }
+
+    public static ConversationEntry GetSelectedConversation()
+    {
+        return selectedConversation;
+    }
+}
